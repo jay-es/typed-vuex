@@ -3,6 +3,7 @@
     <Counter0 />
     <Counter1 />
     <Counter2 />
+    <Counter3 />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Counter0 from '~/components/Counter0.vue'
 import Counter1 from '~/components/Counter1.vue'
 import Counter2 from '~/components/Counter2.vue'
+import Counter3 from '~/components/Counter3.vue'
 
 export default {
   components: {
     Counter0,
     Counter1,
-    Counter2
+    Counter2,
+    Counter3
   }
 }
 </script>
