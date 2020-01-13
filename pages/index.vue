@@ -2,17 +2,20 @@
   <div class="container">
     <Counter0 />
     <Counter1 />
+    <Counter2 />
   </div>
 </template>
 
 <script>
 import Counter0 from '~/components/Counter0.vue'
 import Counter1 from '~/components/Counter1.vue'
+import Counter2 from '~/components/Counter2.vue'
 
 export default {
   components: {
     Counter0,
-    Counter1
+    Counter1,
+    Counter2
   }
 }
 </script>
